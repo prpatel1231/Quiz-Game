@@ -11,20 +11,24 @@
 </head>
 <body>
     <header>
+        <div class="container-fluid">
+            <button id="highScores" class = ""btn btn-link>View High Scores</button>
+            <h3 id="timer">Timer:</h3>
+        </div>
+    </header>
         <div class="container head">
             <h1 id="title">JavaScript Code Quiz</h1>
         </div>
-    </header>
         <div class="container question">
             <div class="row">
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
                             <div class="card-title">
-                                <h1>Question</h1>
+                                <h1 id="question">Click Below to Start the Quiz</h1>
                             </div>
-                            <div class="card-text">
-                                <p>Answers</p>
+                            <div class="card-text" id="answers">
+                                <button id="startBtn" class="btn btn-dark">Start Quiz</button>
                             </div>
                         </div>
                     </div>

@@ -1,5 +1,21 @@
-#title{
+#highScores {
+    float: left;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#timer {
+    float: right;
+    font-family: 'Bebas Neue', cursive;
+}
+#title {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 90px;
+}
+.card-body {
+    font-family: 'Bebas Neue', cursive;
+}
+.answer{ 
+    display: block;
+    margin-top: 10px;
 }
