@@ -63,6 +63,7 @@ function createQuestion(){
 //use event delegation to create an event listener over all dynamically created answer buttons
 
 answerContainer.addEventListener("click", function(event){
+    //set interval function here to create the countdown and scoring mechanism
     var guess = event.target.innerText;
     correctAnswer = questions[questionIndex].answer;
     //check if guess = answer, update score and increment to next question
